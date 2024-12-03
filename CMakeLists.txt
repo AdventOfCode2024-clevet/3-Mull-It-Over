@@ -1,12 +1,18 @@
 cmake_minimum_required(VERSION 3.10)
-project(tmp)
+project(MullItOver)
 
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
     src/Main.cpp
+    src/ArgumentParser.cpp
+    src/FileReader.cpp
 )
 
-set(HEADERS)
+set(HEADERS
+    src/ArgumentParser.hpp
+    src/Multiplicator.hpp
+    src/FileReader.hpp
+)
 
-add_executable(tmp ${SOURCES} ${HEADERS})
+add_executable(MullItOver ${SOURCES} ${HEADERS})

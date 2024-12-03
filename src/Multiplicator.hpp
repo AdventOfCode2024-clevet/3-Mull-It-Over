@@ -3,14 +3,7 @@
 #ifndef MULTIPLICATOR_HPP
     #define MULTIPLICATOR_HPP
 
-    #include <iostream>
-    #include <vector>
-    #include <string>
-    #include <fstream>
-    #include <algorithm>
-    #include <map>
     #include <regex>
-    #include <numeric>
 
     namespace MullItOver
     {
